@@ -1,0 +1,30 @@
+# Keep the lightweight source and run outputs.
+!main2.ipynb
+!pipeline.ipynb
+!/Acidental/data.yaml
+!/Acidental/main.ipynb
+!/Acidental/runs/
+!/Acidental/runs/**
+
+# Exclude large model files and generated data.
+slowfast_best.pth
+test_video.mp4
+test_video1.avi
+Acidental/yolov9e.pt
+Acidental/test/
+Acidental/train/
+Acidental/valid/
+Acidental/runs/**/weights/
+incident_clips/
+incident_frames/
+incident_reports/
+Voilence/*
+!Voilence/Train/
+!Voilence/Test/
+Voilence/Train/*
+Voilence/Test/*
+!Voilence/main2.ipynb
+!Voilence/Train/Weaponized/
+!Voilence/Test/Weaponized/
+!Voilence/Train/Weaponized/**
+!Voilence/Test/Weaponized/**
